@@ -1,6 +1,7 @@
+@import '../../style/variables';
+
 .header {
-  margin-top: 40px;
-  background-color: gray;
+  padding-top: 40px;
   position: relative;
   &__logo {
     width: 35px;

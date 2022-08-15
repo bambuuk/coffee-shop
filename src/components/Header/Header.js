@@ -9,9 +9,7 @@ function Header() {
           <ul className="header-list">
             <li className="header-list__item">
               <img src={logo} alt="logo" className="header__logo" />
-              <a className="header-list__link" href="#empty">
-                Coffee house
-              </a>
+              <a className="header-list__link" href="#empty">Coffee house</a>
             </li>
             <li className="header-list__item"><a className="header-list__link" href="#empty">Our coffee</a></li>
             <li className="header-list__item"><a className="header-list__link" href="#empty">For your pleasure</a></li>
