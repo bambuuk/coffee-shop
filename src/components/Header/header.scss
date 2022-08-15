@@ -1,0 +1,28 @@
+.header {
+  margin-top: 40px;
+  background-color: gray;
+  position: relative;
+  &__logo {
+    width: 35px;
+    height: 35px;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: sticky;
+    list-style-type: none;
+    &__link {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 17px;
+      color: #FFFFFF;
+    }
+  }
+
+}
+
+.navbar {
+  width: 355px;
+}
