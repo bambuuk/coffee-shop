@@ -1,20 +1,24 @@
-import logo from '../../resources/img/icon_coffe_header_nav.svg';
+import HeaderNavbar from '../HeaderNavbar/HeaderNavbar';
+import beansLogo from '../../resources/img/icon_coffe_descr.svg';
+
 import './header.scss';
 
 function Header() {
   return (
     <header className="header">
       <div className="container">
-        <nav className="navbar">
-          <ul className="header-list">
-            <li className="header-list__item">
-              <img src={logo} alt="logo" className="header__logo" />
-              <a className="header-list__link" href="#empty">Coffee house</a>
-            </li>
-            <li className="header-list__item"><a className="header-list__link" href="#empty">Our coffee</a></li>
-            <li className="header-list__item"><a className="header-list__link" href="#empty">For your pleasure</a></li>
-          </ul>
-        </nav>
+        <HeaderNavbar />
+        <h1 className="header__title">Everything You Love About Coffee</h1>
+        <div className="line-with-logo">
+          <div className="line-with-logo__line" />
+          <img src={beansLogo} className="line-with-logo__logo" alt="beans logo" />
+          <div className="line-with-logo__line" />
+        </div>
+        <div className="header__subtitle">
+          <span className="header__subtitle__line">We makes every day full of energy and taste</span>
+          <span className="header__subtitle__line">Want to try our beans?</span>
+        </div>
+        <div className="more-info">More</div>
       </div>
     </header>
   );
