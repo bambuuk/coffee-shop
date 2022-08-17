@@ -1,9 +1,17 @@
-import MainPage from '../../pages/MainPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import CoffeeHouse from '../../pages/CoffeeHouse';
+import OurCoffee from '../../pages/OurCoffee';
+
 import './app.scss';
 
 function App() {
   return (
-    <MainPage />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<CoffeeHouse />} />
+        <Route path="/our-coffee" element={<OurCoffee />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
