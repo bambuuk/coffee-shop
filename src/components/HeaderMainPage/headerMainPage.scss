@@ -2,7 +2,6 @@
 
 .header {
   padding-top: 40px;
-  width: 100vw;
   height: 100vh;
   background: url('../../resources/img/main_bg.jpg') center (center/cover) no-repeat;
   &__title {
@@ -11,23 +10,8 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 58px;
-    color: #FFFFFF;
+    color: $header-color;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .line-with-logo {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &__logo {
-      margin: 0 25px;
-    }
-    &__line {
-      width: 60px;
-      height: 0px;
-      border: 1px solid #FFFFFF;
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    }
   }
   &__subtitle {
     display: flex;
@@ -37,7 +21,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 35px;
-    color: #FFFFFF;
+    color: $header-color;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     &__line {
       margin-top: 20px;
@@ -51,13 +35,13 @@
     margin-top: 18px;
     width: 120px;
     height: 30px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid $header-color;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 3px;
     font-weight: 700;
     font-size: 14px;
     line-height: 30px;
     text-align: center;
-    color: #FFFFFF;
+    color: $header-color;
   }
 }

@@ -1,0 +1,15 @@
+@import '../../style/variables';
+
+.about-company {
+  &__description {
+    margin: 0 auto;
+    margin-bottom: 101px;
+    width: 589px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: $text-color;
+  }
+}

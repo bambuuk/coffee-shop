@@ -1,8 +1,18 @@
-import Header from '../components/Header/Header';
+import HeaderMainPage from '../components/HeaderMainPage/HeaderMainPage';
+import AboutUs from '../components/AboutUs/AboutUs';
+import BestProduct from '../components/BestProduct/BestProduct';
+import Footer from '../components/Footer/Footer';
 
 function MainPage() {
   return (
-    <Header />
+    <>
+      <HeaderMainPage />
+      <main>
+        <AboutUs />
+        <BestProduct />
+      </main>
+      <Footer />
+    </>
   );
 }
 
