@@ -8,7 +8,7 @@ function HeaderMainPage() {
     <header className="header">
       <div className="container">
         <HeaderNavbar />
-        <h1 className="header__title">Everything You Love About Coffee</h1>
+        <h1 className="header__title header__title_pd-top111">Everything You Love About Coffee</h1>
         <div className="line-with-logo">
           <div className="line-with-logo__line line-with-logo__line_white" />
           <img src={beansLogo} className="line-with-logo__logo" alt="beans logo" />
