@@ -1,0 +1,58 @@
+@import "../../style/variables";
+
+.filter-coffee {
+  &__wrapper {
+    display: grid;
+    grid-template: repeat(1, auto) / repeat(2, auto);
+    justify-content: center;
+    column-gap: 83px; 
+  }
+  &__search-input {
+    margin-left: 19px;
+    width: 180px;
+    height: 30px;
+    background: $header-color;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  &__search-input__label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: $text-color;
+  }
+  &__filters {
+    display: flex;
+    justify-content: space-between;
+    min-width: 326px;
+  }
+  &__filters-list {
+    display: flex;
+  }
+  &__filter-item {
+    width: 75px;
+    height: 30px;
+    margin: 0 2.5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    color: $text-color;
+    background: $header-color;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px 0px 0px 4px;
+  }
+  &__label-filters {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: $text-color;
+  }
+}
