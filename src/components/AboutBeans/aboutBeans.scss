@@ -1,0 +1,28 @@
+@import '../../style/variables';
+
+.about-beans {
+  padding: 70px 0 61px 0;
+  &_wrapper {
+    display: grid;
+    grid-template: repeat(1, auto) / repeat(2, auto);
+    justify-content: center;
+    column-gap: 79px;    
+  }
+  &__description {
+    width: 346px;
+  }
+  &__text {
+    margin-top: 26px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: $text-color;
+  }
+  &__black-line {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 240px;
+    border: 1px solid #000000;
+  }
+}

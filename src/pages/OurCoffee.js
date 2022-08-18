@@ -1,4 +1,5 @@
 import OurCoffeeHeader from '../components/OurCoffeeHeader/OurCoffeeHeader';
+import AboutBeans from '../components/AboutBeans/AboutBeans';
 import Footer from '../components/Footer/Footer';
 
 function OurCoffee() {
@@ -6,7 +7,7 @@ function OurCoffee() {
     <>
       <OurCoffeeHeader />
       <main>
-        privet
+        <AboutBeans />
       </main>
       <Footer />
     </>
