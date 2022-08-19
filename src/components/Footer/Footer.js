@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import BlackLineWithLogo from '../BlackLineWithLogo/BlackLineWithLogo';
 import footerBeansCoffee from '../../resources/img/footer_beans.svg';
 import './footer.scss';
@@ -9,10 +10,35 @@ function Footer() {
         <ul className="footer__list">
           <li className="footer__item">
             <img src={footerBeansCoffee} alt="coffee beans" className="footer__logo" />
-            <a className="footer__link" href="#empty">Coffee house</a>
+            <NavLink 
+              to="/"
+              style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#000' })}
+              className="footer__link" 
+              href="#empty"
+            >
+              Coffee house
+            </NavLink>
           </li>
-          <li className="footer__item"><a className="footer__link" href="#empty">Our coffee</a></li>
-          <li className="footer__item"><a className="footer__link" href="#empty">For your pleasure</a></li>
+          <li className="footer__item">
+            <NavLink 
+              to="/our-coffee"
+              style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#000' })}
+              className="footer__link" 
+              href="#empty"
+            >
+              Our coffee
+            </NavLink>
+          </li>
+          <li className="footer__item">
+            <NavLink 
+              to="/for-your-pleasure"
+              style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#000' })}
+              className="footer__link" 
+              href="#empty"
+            >
+              For your pleasure
+            </NavLink>
+          </li>
         </ul>
       </nav>
       <BlackLineWithLogo />
