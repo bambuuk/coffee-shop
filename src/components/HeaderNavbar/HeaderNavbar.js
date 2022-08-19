@@ -28,7 +28,16 @@ function HeaderNavbar() {
             Our coffee
           </NavLink>
         </li>
-        <li className="navbar-list__item"><a className="navbar-list__link" href="#empty">For your pleasure</a></li>
+        <li className="navbar-list__item">
+          <NavLink 
+            to="/for-your-pleasure"
+            style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#fff' })}
+            className="navbar-list__link" 
+            href="#empty"
+          >
+            For your pleasure
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
