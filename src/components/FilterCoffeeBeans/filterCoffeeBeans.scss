@@ -11,7 +11,7 @@
     margin-left: 19px;
     width: 180px;
     height: 30px;
-    background: $header-color;
+    background: #FFFFFF;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     font-weight: 400;
@@ -44,9 +44,10 @@
     line-height: 30px;
     text-align: center;
     color: $text-color;
-    background: $header-color;
+    background: #FFFFFF;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 4px 0px 0px 4px;
+    cursor: pointer;
   }
   &__label-filters {
     font-weight: 400;
