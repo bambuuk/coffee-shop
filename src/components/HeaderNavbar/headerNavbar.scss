@@ -9,7 +9,7 @@
   &-list {
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: flex-end;
     list-style-type: none;
     &__link {
       position: relative;

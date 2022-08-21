@@ -7,7 +7,7 @@ function AboutBeans() {
   return (
     <section className="about-beans">
       <div className="container">
-        <div className="about-beans_wrapper">
+        <div className="about-beans__wrapper">
           <img className="about-beans__img" src={AboutBeansImg} alt="About our beans" />
           <div className="about-beans__description">
             <h2 className="title title_margin-top-9">About our beans</h2>

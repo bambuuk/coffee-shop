@@ -1,12 +1,12 @@
 @import '../../style/variables';
 
-.about-beans {
+.about-goods {
   padding: 70px 0 61px 0;
   &__wrapper {
     display: grid;
     grid-template: repeat(1, auto) / repeat(2, auto);
     justify-content: center;
-    column-gap: 79px;    
+    column-gap: 89px;    
   }
   &__description {
     width: 346px;

@@ -1,12 +1,15 @@
 import ForYourPleasureHeader from '../components/ForYourPleasureHeader/ForYourPleasureHeader';
+import AboutOurGoods from '../components/AboutOurGoods/AboutOurGoods';
 import Footer from '../components/Footer/Footer';
+import Carousel from '../components/Carousel/Carousel';
 
 function ForYourPleasure() {
   return (
     <>
       <ForYourPleasureHeader />
       <main>
-        <h2>gigigigiig</h2>
+        <AboutOurGoods />
+        <Carousel />
       </main>
       <Footer />
     </>
