@@ -13,21 +13,12 @@ function AboutBeans() {
             <h2 className="title title_margin-top-9">About our beans</h2>
             <BlackLineWithLogo />
             <p className="about-beans__text">
-              Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible. 
+              Our 100% Arabica coffee is hand roasted in small batches and packaged at the peak of its cycle to
+              preserve its natural flavors and fresh-roasted quality. We use 100 percent organic and natural
+              coffee beans, certified by the USDA and CCOF.
               <br />
-              <br />
-              Afraid at highly months do things on at. Situation 
-              recommend objection do intention
-              <br />
-              so questions. 
-              <br /> 
-              As greatly removed calling pleased improve an. 
-              <br />
-              Last ask him cold feel
-              <br />
-              met spot shy want. Children me laughing we prospect answered followed. At it went
-              <br />
-              is song that held help face.
+              Our 25 years of combined roasting experience allow us to roast coffee to maximize
+              its health benefits, while preserving its great taste and quality.
             </p>
           </div>
         </div>
