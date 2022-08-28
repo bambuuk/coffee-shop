@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 import CoffeeItem from '../CoffeeItem/CoffeeItem.tsx';
 import './coffeeList.scss';
 
@@ -11,7 +10,7 @@ function CoffeeList() {
       country: 'Brazil',
       weight: '1 kg',
       price: '6.99$',
-      id: uuidv4()
+      id: 'AROMISTICO Coffee 1 kg + Brazil + 6.99$'
     },
     {
       imgUrl: 'https://m.media-amazon.com/images/I/71TcI6NptNL.jpg',
@@ -19,7 +18,7 @@ function CoffeeList() {
       country: 'Brazil',
       weight: '2 kg',
       price: '12.99$',
-      id: uuidv4()
+      id: 'AROMISTICO Coffee 2 kg + Brazil + 12.99$'
     },
     {
       imgUrl: 'https://i.ebayimg.com/images/g/LoIAAOSwi3Fgw1NI/s-l500.png',
@@ -27,7 +26,7 @@ function CoffeeList() {
       country: 'Kenya',
       weight: '1 kg',
       price: '10.73$',
-      id: uuidv4()
+      id: 'Solimo Coffee Beans 1 kg + Kenya + 10.73$'
     },
     {
       imgUrl: 'https://i.ebayimg.com/images/g/LoIAAOSwi3Fgw1NI/s-l500.png',
@@ -35,7 +34,7 @@ function CoffeeList() {
       country: 'Kenya',
       weight: '2 kg',
       price: '19.99$',
-      id: uuidv4()
+      id: 'Solimo Coffee Beans 2 kg + Kenya + 19.99$'
     },
     {
       imgUrl: 'https://i.ebayimg.com/thumbs/images/g/gKwAAOSw0Vxipz0Z/s-l300.jpg',
@@ -43,7 +42,7 @@ function CoffeeList() {
       country: 'Columbia',
       weight: '1 kg',
       price: '15.00$',
-      id: uuidv4()
+      id: 'Presto Coffee Beans 1 kg + Columbia + 15.00$'
     },
     {
       imgUrl: 'https://i.ebayimg.com/thumbs/images/g/gKwAAOSw0Vxipz0Z/s-l300.jpg',
@@ -51,7 +50,7 @@ function CoffeeList() {
       country: 'Columbia',
       weight: '2 kg',
       price: '29.99$',
-      id: uuidv4()
+      id: 'Presto Coffee Beans 2 kg + Columbia + 29.99$'
     },
 
   ]);
