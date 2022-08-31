@@ -19,9 +19,10 @@ function FilterCoffeeBeans() {
           <div className="filter-coffee__filters">
             <div className="filter-coffee__label-filters">Or filter</div>
             <div className="filter-coffee__filters-list">
-              <div className="filter-coffee__filter-item">Brazil</div>
-              <div className="filter-coffee__filter-item">Kenya</div>
-              <div className="filter-coffee__filter-item">Columbia</div>
+              <button type="button" className="filter-coffee__filter-item">Brazil</button>
+              <button type="button" className="filter-coffee__filter-item">Kenya</button>
+              <button type="button" className="filter-coffee__filter-item">Columbia</button>
+              <button type="button" className="filter-coffee__filter-item">All</button>
             </div>
           </div>
         </div>

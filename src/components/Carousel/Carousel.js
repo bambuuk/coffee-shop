@@ -1,5 +1,5 @@
 import {
-  useState
+  useState,
 } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import './Carousel.scss';
@@ -10,7 +10,7 @@ function Carousel() {
   const [items] = useState([
     { url: 'https://m.media-amazon.com/images/I/71TcI6NptNL.jpg', id: '1' },
     { url: 'https://i.ebayimg.com/images/g/LoIAAOSwi3Fgw1NI/s-l500.png', id: '2' },
-    { url: 'https://i.ebayimg.com/thumbs/images/g/gKwAAOSw0Vxipz0Z/s-l300.jpg', id: '3' }
+    { url: 'https://i.ebayimg.com/thumbs/images/g/gKwAAOSw0Vxipz0Z/s-l300.jpg', id: '3' },
   ]);
   const [offset, setOffset] = useState(0);
 

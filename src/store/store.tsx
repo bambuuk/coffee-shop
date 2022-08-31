@@ -4,12 +4,12 @@ import thunk from 'redux-thunk';
 import rootReducer from './reducers';
 
 const composedEnhancer = composeWithDevTools(
-  applyMiddleware(thunk)
+  applyMiddleware(thunk),
 );
 
 const store = createStore(
   rootReducer,
-  composedEnhancer
+  composedEnhancer,
 );
 
 export default store;

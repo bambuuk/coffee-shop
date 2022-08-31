@@ -8,7 +8,7 @@ type CoffeeItemProp = {
 };
 
 function CoffeeItem({
-  imgUrl, title, country, price
+  imgUrl, title, country, price,
 }: CoffeeItemProp) {
   return (
     <div className="coffee-item">
