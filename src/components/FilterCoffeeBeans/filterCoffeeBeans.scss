@@ -52,6 +52,10 @@
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
+    transition: 0.4s all;
+    &:hover {
+      box-shadow: 4px 4px 20px rgba(245, 4, 4, 0.773);
+    }
   }
   &__label-filters {
     margin-right: 2.5px;

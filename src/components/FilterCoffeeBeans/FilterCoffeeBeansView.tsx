@@ -1,6 +1,6 @@
 import './filterCoffeeBeans.scss';
 
-function FilterCoffeeBeans() {
+function FilterCoffeeBeansView() {
   return (
     <div className="filter-coffee">
       <div className="container">
@@ -8,9 +8,9 @@ function FilterCoffeeBeans() {
           <div className="filter-coffee__search">
             <label className="filter-coffee__search-input__label" htmlFor="search">
               Lookiing for
-              <input 
-                className="filter-coffee__search-input" 
-                type="text" 
+              <input
+                className="filter-coffee__search-input"
+                type="text"
                 id="search"
                 placeholder="start typing here..."
               />
@@ -31,4 +31,4 @@ function FilterCoffeeBeans() {
   );
 }
 
-export default FilterCoffeeBeans;
+export default FilterCoffeeBeansView;
