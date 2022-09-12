@@ -1,6 +1,15 @@
 import './filterCoffeeBeans.scss';
 
-function FilterCoffeeBeansView() {
+interface ButtonsData {
+  name: string;
+}
+
+function FilterCoffeeBeansView({ buttonsData }: { buttonsData: ButtonsData[] }) {
+  const content = buttonsData.map((item) => {
+    return (
+      <button type="button" className="filter-coffee__filter-item" key={item.name}>{item.name}</button>
+    );
+  });
   return (
     <div className="filter-coffee">
       <div className="container">
@@ -19,10 +28,7 @@ function FilterCoffeeBeansView() {
           <div className="filter-coffee__filters">
             <div className="filter-coffee__label-filters">Or filter</div>
             <div className="filter-coffee__filters-list">
-              <button type="button" className="filter-coffee__filter-item">Brazil</button>
-              <button type="button" className="filter-coffee__filter-item">Kenya</button>
-              <button type="button" className="filter-coffee__filter-item">Columbia</button>
-              <button type="button" className="filter-coffee__filter-item">All</button>
+              {content}
             </div>
           </div>
         </div>

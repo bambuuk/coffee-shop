@@ -1,15 +1,15 @@
 import FilterCoffeeBeansView from './FilterCoffeeBeansView';
-import './filterCoffeeBeans.scss';
 
 function FilterCoffeeBeans() {
   const buttonsData = [
-    { name: 'Brazil', label: 'Brazil' },
-    { name: 'Kenya', label: 'Kenya' },
-    { name: 'Columbia', label: 'Columbia' },
-    { name: 'All', label: 'All' },
+    { name: 'Brazil' },
+    { name: 'Kenya' },
+    { name: 'Columbia' },
+    { name: 'All' },
   ];
+  
   return (
-    <FilterCoffeeBeansView />
+    <FilterCoffeeBeansView buttonsData={buttonsData} />
   );
 }
 
