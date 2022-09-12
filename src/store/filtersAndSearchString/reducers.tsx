@@ -1,9 +1,5 @@
 import { SEARCH_VALUE, FILTER_TYPE } from './types';
-
-type State = {
-  searchValue?: string | null;
-  currentFilter?: string | null;
-};
+import { IState } from '../../types/state';
 
 type Actions = {
   type: string;
@@ -12,11 +8,11 @@ type Actions = {
 
 const initialState = {
   searchValue: null,
-  currentFilter: 'all',
+  currentFilter: 'All',
 };
 
 // eslint-disable-next-line
-const filtersAndSearch = (state: State = initialState, action: Actions) => {
+const filtersAndSearch = (state: IState = initialState, action: Actions) => {
   switch (action.type) {
     case SEARCH_VALUE:
       return {

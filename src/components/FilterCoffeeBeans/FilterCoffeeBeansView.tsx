@@ -1,15 +1,32 @@
+import React from 'react';
 import './filterCoffeeBeans.scss';
 
 interface ButtonsData {
   name: string;
 }
 
-function FilterCoffeeBeansView({ buttonsData }: { buttonsData: ButtonsData[] }) {
+function FilterCoffeeBeansView({ buttonsData, onSelectFilter, currentFilter }: { 
+  buttonsData: ButtonsData[], 
+  onSelectFilter: (filter: string) => void,
+  currentFilter: string; 
+}) {
   const content = buttonsData.map((item) => {
+    const clazz = currentFilter === item.name 
+      ? 'filter-coffee__filter-item active-filters' : 'filter-coffee__filter-item';
+    
     return (
-      <button type="button" className="filter-coffee__filter-item" key={item.name}>{item.name}</button>
+      <button 
+        type="button" 
+        className={clazz} 
+        key={item.name}
+        onClick={() => onSelectFilter(item.name)}
+        name={item.name}
+      >
+        {item.name}
+      </button>
     );
   });
+
   return (
     <div className="filter-coffee">
       <div className="container">
