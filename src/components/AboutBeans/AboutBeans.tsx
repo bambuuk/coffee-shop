@@ -1,6 +1,5 @@
 import BlackLineWithLogo from '../BlackLineWithLogo/BlackLineWithLogo';
-
-import AboutBeansImg from '../../resources/img/about_our_beans-2.jpg';
+import about_beans_img from '../../resources/img/about_our_beans-2.jpg';
 import './aboutBeans.scss';
 
 function AboutBeans() {
@@ -8,7 +7,7 @@ function AboutBeans() {
     <section className="about-beans">
       <div className="container">
         <div className="about-beans__wrapper">
-          <img className="about-beans__img" src={AboutBeansImg} alt="About our beans" />
+          <img className="about-beans__img" src={about_beans_img} alt="About our beans" />
           <div className="about-beans__description">
             <h2 className="title title_margin-top-9">About our beans</h2>
             <BlackLineWithLogo />
