@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { useSelector } from 'react-redux';
+import { IFiltersAndSearch } from '../../types/state';
 import CoffeeItem from '../CoffeeItem/CoffeeItem';
 import './coffeeList.scss';
 
@@ -52,12 +54,26 @@ function CoffeeList() {
       price: '29.99$',
       id: 'Presto Coffee Beans 2 kg + Columbia + 29.99$',
     },
-
   ]);
 
-  const content = cards.map((item) => {
+  const currentFilter = useSelector((state: IFiltersAndSearch) => state.filtersAndSearch.currentFilter);
+
+  const sortCardsByFilter = (filter: string) => {
+    const copyCards = [...cards];
+    let result = copyCards;
+    if (filter === 'All') {
+      result = copyCards;
+    } else {
+      result = copyCards.filter((item) => item.country === filter);
+    }
+    return result;
+  };
+
+  const visibleCards = sortCardsByFilter(currentFilter);
+
+  const content = visibleCards.map((item) => {
     return (
-      <CoffeeItem 
+      <CoffeeItem
         key={item.id}
         imgUrl={item.imgUrl}
         title={item.title}
