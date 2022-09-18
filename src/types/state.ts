@@ -5,7 +5,7 @@ export type IState = {
 
 export type IFiltersAndSearch = {
   filtersAndSearch: {
-    searchValue: string | null;
+    searchValue: string;
     currentFilter: string;
   }
 };

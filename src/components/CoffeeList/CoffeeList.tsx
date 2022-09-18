@@ -57,6 +57,7 @@ function CoffeeList() {
   ]);
 
   const currentFilter = useSelector((state: IFiltersAndSearch) => state.filtersAndSearch.currentFilter);
+  const searchTextValue = useSelector((state: IFiltersAndSearch) => state.filtersAndSearch.searchValue);
 
   const sortCardsByFilter = (filter: string) => {
     const copyCards = [...cards];
@@ -65,6 +66,9 @@ function CoffeeList() {
       result = copyCards;
     } else {
       result = copyCards.filter((item) => item.country === filter);
+    }
+    if (searchTextValue !== '' && searchTextValue !== null) {
+      result = result.filter((item) => item.title.toLowerCase().includes(searchTextValue.toLowerCase()));
     }
     return result;
   };

@@ -1,23 +1,26 @@
-import React from 'react';
 import './filterCoffeeBeans.scss';
 
 interface ButtonsData {
   name: string;
 }
 
-function FilterCoffeeBeansView({ buttonsData, onSelectFilter, currentFilter }: { 
-  buttonsData: ButtonsData[], 
+function FilterCoffeeBeansView({
+  buttonsData, onSelectFilter, currentFilter, sendSearchingText, searchTextValue,
+}: {
+  buttonsData: ButtonsData[],
   onSelectFilter: (filter: string) => void,
-  currentFilter: string; 
+  sendSearchingText: (text: string) => void,
+  currentFilter: string,
+  searchTextValue: string,
 }) {
   const content = buttonsData.map((item) => {
-    const clazz = currentFilter === item.name 
+    const clazz = currentFilter === item.name
       ? 'filter-coffee__filter-item active-filters' : 'filter-coffee__filter-item';
-    
+
     return (
-      <button 
-        type="button" 
-        className={clazz} 
+      <button
+        type="button"
+        className={clazz}
         key={item.name}
         onClick={() => onSelectFilter(item.name)}
         name={item.name}
@@ -39,6 +42,8 @@ function FilterCoffeeBeansView({ buttonsData, onSelectFilter, currentFilter }: {
                 type="text"
                 id="search"
                 placeholder="start typing here..."
+                value={searchTextValue}
+                onChange={(e) => { sendSearchingText(e.target.value); }}
               />
             </label>
           </div>
