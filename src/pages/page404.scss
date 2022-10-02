@@ -1,0 +1,22 @@
+@import '../style/variables';
+
+.descr-404-page {
+  text-align: center;
+  color: $text-color;
+  font-size: 25px;
+  transition: 0.4s all;
+  &:hover {
+    color: rgb(118, 16, 16);
+  }
+}
+
+.wrapper-404-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.linkOnMainPage {
+  text-decoration: none;
+}

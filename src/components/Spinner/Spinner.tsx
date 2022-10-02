@@ -2,7 +2,7 @@ import './spinner.scss';
 
 function Spinner() {
   return (
-    <div className="wrapper">
+    <div className="wrapper-spinner">
       <div className="loader" />
     </div>
 
