@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import pageNotFound from '../resources/img/404.png';
+import pageNotFound from '../../resources/img/404.png';
 import './page404.scss';
 
 function Page404() {

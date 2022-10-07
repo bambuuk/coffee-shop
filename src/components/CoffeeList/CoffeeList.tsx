@@ -84,6 +84,7 @@ function CoffeeList() {
     return (
       <CoffeeItem
         key={item.id}
+        id={item.id}
         imgUrl={item.imgUrl}
         title={item.title}
         country={item.country}

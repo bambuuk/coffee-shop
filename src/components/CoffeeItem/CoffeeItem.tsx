@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './coffeeItem.scss';
 
 type CoffeeItemProp = {
@@ -5,22 +6,25 @@ type CoffeeItemProp = {
   title: string;
   country: string;
   price: string;
+  id: string;
 };
 
 function CoffeeItem({
-  imgUrl, title, country, price,
+  imgUrl, title, country, price, id,
 }: CoffeeItemProp) {
   return (
-    <div className="coffee-item">
-      <img
-        className="coffee-item__img"
-        src={imgUrl}
-        alt={title}
-      />
-      <div className="coffee-item__title">{title}</div>
-      <div className="coffee-item__country">{country}</div>
-      <div className="coffee-item__price">{price}</div>
-    </div>
+    <Link className="coffee-item__link" to={`/our-coffee/${id}`}>
+      <div className="coffee-item">
+        <img
+          className="coffee-item__img"
+          src={imgUrl}
+          alt={title}
+        />
+        <div className="coffee-item__title">{title}</div>
+        <div className="coffee-item__country">{country}</div>
+        <div className="coffee-item__price">{price}</div>
+      </div>
+    </Link>
   );
 }
 
