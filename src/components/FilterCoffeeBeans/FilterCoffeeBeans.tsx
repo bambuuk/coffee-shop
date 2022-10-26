@@ -10,9 +10,9 @@ function FilterCoffeeBeans() {
   const searchTextValue = useSelector((state: IFiltersAndSearch) => state.filtersAndSearch.searchValue);
 
   const buttonsData = [
-    { name: 'Brazil' },
-    { name: 'Kenya' },
-    { name: 'Columbia' },
+    { name: '200 grams' },
+    { name: '1 kilograms' },
+    { name: '2 kilograms' },
     { name: 'All' },
   ];
   const onSelectFilter = (filter: string) => {

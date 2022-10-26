@@ -1,6 +1,4 @@
-// import { useParams } from "react-router-dom";
-// import { useSelector } from "react-redux";
-import { Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import OurCoffeeHeader from '../../components/OurCoffeeHeader/OurCoffeeHeader';
 import Footer from '../../components/Footer/Footer';
 import BlackLineWithLogo from '../../components/BlackLineWithLogo/BlackLineWithLogo';
@@ -8,6 +6,8 @@ import coffeeItemImage from '../../resources/img/aromistico-napali.jpg';
 import './singleCoffeeItemPage.scss';
 
 function SingleCoffeeItemPage() {
+  const idProduct = useParams();
+  console.log(idProduct);
   return (
     <div className="single-coffee-page">
       <OurCoffeeHeader />

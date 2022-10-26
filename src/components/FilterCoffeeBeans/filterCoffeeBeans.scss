@@ -36,7 +36,8 @@
     display: flex;
   }
   &__filter-item {
-    width: 75px;
+    white-space: wrap;
+    width: 85px;
     height: 30px;
     margin: 0 2.5px;
     font-weight: 400;
@@ -46,7 +47,7 @@
     color: $text-color;
     background: #FFFFFF;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 0px 4px 0px;
     cursor: pointer;
     border-top-width: 1px;
     border-right-width: 1px;

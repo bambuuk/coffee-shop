@@ -15,6 +15,7 @@
   &__img {
     width: 100%;
     object-fit: cover;
+    height: 100px;
   }
   &__title {
     margin-top: 14px;
@@ -40,4 +41,12 @@
     text-align: end;
     color: $text-color;
   }
+  &__text-container {
+    min-height: 150px;
+  }
 }
+
+// .wrapper_img {
+//   width: 200px;
+//   height: 300px;
+// }

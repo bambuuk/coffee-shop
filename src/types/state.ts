@@ -9,3 +9,28 @@ export type IFiltersAndSearch = {
     currentFilter: string;
   }
 };
+
+export interface IProducts {
+  imgUrl: string,
+  title: string,
+  price: string,
+  id: string,
+  country?: string,
+  techniclas?: {
+    type: string,
+    cuisine: string,
+    format: string,
+    weight: string,
+    flavour: string,
+    roast: string,
+    'country of origin': string,
+    'country of origin of primary ingredient': string
+  }
+}
+
+export interface IProductsState {
+  products: {
+    dataProducts: IProducts[],
+    loadingStatus: boolean
+  }
+}

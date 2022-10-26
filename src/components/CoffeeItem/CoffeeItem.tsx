@@ -20,9 +20,18 @@ function CoffeeItem({
           src={imgUrl}
           alt={title}
         />
-        <div className="coffee-item__title">{title}</div>
-        <div className="coffee-item__country">{country}</div>
-        <div className="coffee-item__price">{price}</div>
+        {/* <div className="wrapper_img">
+          <img
+            className="coffee-item__img"
+            src={imgUrl}
+            alt={title}
+          />
+        </div> */}
+        <div className="coffee-item__text-container">
+          <div className="coffee-item__title">{title.length > 57 ? `${title.slice(0, 58)} + ...` : title}</div>
+          <div className="coffee-item__country">{country}</div>
+          <div className="coffee-item__price">{price}</div>
+        </div>
       </div>
     </Link>
   );
