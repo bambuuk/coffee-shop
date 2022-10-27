@@ -9,7 +9,7 @@ import './coffeeList.scss';
 function CoffeeList() {
   const [cards] = useState([
     {
-      imgUrl: 'https://i.pinimg.com/originals/30/26/ad/3026ad9af80566d4aa6badeaeb830fd2.jpg',
+      imgUrl: 'https://i.pinimg.com/originals/8d/2c/1c/8d2c1c42b83d38d8b2ed5d45034eb3e5.jpg',
       title: 'AROMISTICO CAPRI - Premium Coarse Coffee for COLD BREW',
       price: '6.99$',
       id: 'B07CJK4QNS',
@@ -26,7 +26,7 @@ function CoffeeList() {
       },
     },
     {
-      imgUrl: 'https://i.pinimg.com/564x/43/88/0c/43880c482a39b03e82942e82cd4af104.jpg',
+      imgUrl: 'https://i.pinimg.com/originals/b0/a0/1c/b0a01c76c8b269e8c2c471f5cf193f04.jpg',
       title: 'AROMISTICO CAPRI - Premium Coarse Coffee for COLD BREW',
       price: '12.99$',
       id: 'B07CJKDN36',
@@ -43,7 +43,7 @@ function CoffeeList() {
       },
     },
     {
-      imgUrl: 'https://i.pinimg.com/564x/14/f0/a1/14f0a10b46579003d3428579f66e44a1.jpg',
+      imgUrl: 'https://i.pinimg.com/originals/db/f8/ab/dbf8ab3b5368cf013d468711f5fa734b.jpg',
       title: 'AROMISTICO Napoli - Rich Strong Dark Roast | Smoky, Malty & Dark Chocolate-Like',
       price: '10.73$',
       id: 'B079M4R9R4',
@@ -59,30 +59,6 @@ function CoffeeList() {
         'country of origin of primary ingredient': 'Central America',
       },
     },
-    // {
-    //   imgUrl: 'https://i.ebayimg.com/images/g/LoIAAOSwi3Fgw1NI/s-l500.png',
-    //   title: 'Solimo Coffee Beans 2 kg',
-    //   country: 'Kenya',
-    //   weight: '2 kg',
-    //   price: '19.99$',
-    //   id: useId(),
-    // },
-    // {
-    //   imgUrl: 'https://i.ebayimg.com/thumbs/images/g/gKwAAOSw0Vxipz0Z/s-l300.jpg',
-    //   title: 'Presto Coffee Beans 1 kg',
-    //   country: 'Columbia',
-    //   weight: '1 kg',
-    //   price: '15.00$',
-    //   id: useId(),
-    // },
-    // {
-    //   imgUrl: 'https://i.ebayimg.com/thumbs/images/g/gKwAAOSw0Vxipz0Z/s-l300.jpg',
-    //   title: 'Presto Coffee Beans 2 kg',
-    //   country: 'Columbia',
-    //   weight: '2 kg',
-    //   price: '29.99$',
-    //   id: useId(),
-    // },
   ]);
 
   const dispatch = useDispatch();
