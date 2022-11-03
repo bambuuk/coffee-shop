@@ -1,50 +1,182 @@
 [
   {
-    "imgUrl": "https://m.media-amazon.com/images/I/71TcI6NptNL.jpg",
-    "title": "AROMISTICO Coffee 1 kg",
-    "country": "Brazil",
-    "weight": "1 kg",
-    "price": "6.99$",
-    "id": ":r0:"
+      "imgUrl": "https://i.pinimg.com/originals/8d/2c/1c/8d2c1c42b83d38d8b2ed5d45034eb3e5.jpg",
+      "title": "CAPRI - Premium Coarse Coffee for COLD BREW",
+      "price": "20.00$",
+      "id": "B07CJK4QNS",
+      "country": "Ethiopia",
+      "description": "FLAVOUR - A medium roast, coarse grind especially made for cold brewing. \n      This is an intense blend with refreshing and flavourful notes which \n      releases an irresistible milk-chocolate richness. This coffee was created for \n      summertime by carefully selecting unique varieties of coffee beans and a roasting \n      level perfect for cold brew extraction. This blend is 3/5 strength. Also available in Beans.",
+      "techniclas": {
+          "type": "COARSE GROUND",
+          "cuisine": "European",
+          "format": "Ground",
+          "weight": "2 kilograms",
+          "flavour": "Cold Brew Roast - CAPRI",
+          "roast": "Medium_roast",
+          "country of origin": "Italy",
+          "country of origin of primary ingredient": "Ethiopia"
+      }
   },
   {
-    "imgUrl": "https://m.media-amazon.com/images/I/71TcI6NptNL.jpg",
-    "title": "AROMISTICO Coffee 2 kg",
-    "country": "Brazil",
-    "weight": "2 kg",
-    "price": "12.99$",
-    "id": ":r1:"
+      "imgUrl": "https://i.pinimg.com/originals/b0/a0/1c/b0a01c76c8b269e8c2c471f5cf193f04.jpg",
+      "title": "CAPRI - Premium Coarse Coffee for COLD BREW",
+      "price": "4.00$",
+      "id": "B07CJKDN36",
+      "country": "Guatemala",
+      "description": "FLAVOUR - A medium roast, coarse grind especially made for cold brew coffee. \n      This is an intense blend with refreshing and flavourful notes which releases an \n      irresistible milk-chocolate richness. This coffee was created for summertime by carefully \n      selecting unique varieties of coffee beans and a roasting level perfect for cold brew \n      extraction. This blend is 3/5 strength. Also available in Ground.",
+      "techniclas": {
+          "type": "Coffee Whole Beans",
+          "cuisine": "European",
+          "format": "Whole Bean",
+          "weight": "200 grams",
+          "flavour": "Cold Brew Roast - CAPRI",
+          "roast": "Medium_roast",
+          "country of origin": "Italy",
+          "country of origin of primary ingredient": "Guatemala"
+      }
   },
   {
-    "imgUrl": "https://i.ebayimg.com/images/g/LoIAAOSwi3Fgw1NI/s-l500.png",
-    "title": "Solimo Coffee Beans 1 kg",
-    "country": "Kenya",
-    "weight": "1 kg",
-    "price": "10.73$",
-    "id": ":r2:"
+      "imgUrl": "https://i.pinimg.com/originals/db/f8/ab/dbf8ab3b5368cf013d468711f5fa734b.jpg",
+      "title": "Napoli - Rich Strong Dark Roast 1 KG Whole Coffee Beans",
+      "price": "12.00$",
+      "id": "B079M4R9R4",
+      "country": "Central America",
+      "description": "FLAVOUR - 1KG BAG. A rich and strong dark roast with smoky, malty and chocolate \n      notes. This is our most intense blend, 5/5 strength. Look forward to the mornings with our smooth, \n      aromatic blend. A sophisticated, full-bodied coffee that’s perfect for drinking at any time of day. \n      This blend has a long lasting aftertaste and will leave all you home baristas wanting more. Also \n      available in Ground, Espresso Ground, and Beans (standard bag size).",
+      "techniclas": {
+          "type": "Coffee Whole Beans",
+          "cuisine": "European",
+          "format": "Whole Bean",
+          "weight": "1 kilograms",
+          "flavour": "Dark Roast - NAPOLI",
+          "roast": "Dark_roast",
+          "country of origin": "Italy",
+          "country of origin of primary ingredient": "Central America"
+      }
   },
   {
-    "imgUrl": "https://i.ebayimg.com/images/g/LoIAAOSwi3Fgw1NI/s-l500.png",
-    "title": "Solimo Coffee Beans 2 kg",
-    "country": "Kenya",
-    "weight": "2 kg",
-    "price": "19.99$",
-    "id": ":r3:"
+      "imgUrl": "https://i.pinimg.com/originals/73/d4/b5/73d4b58aeeb611993d0d5d6c1fa2afdb.jpg",
+      "title": "Napoli - Rich Strong Dark Roast Espresso Ground Coffee",
+      "price": "4.00$",
+      "id": "B0888NNPXQ",
+      "country": "Brazil",
+      "description": "FLAVOUR - A rich and strong dark roast with smoky, malty and dark chocolate notes. \n      This ground espresso coffee blend is a fine grind and 4/5 strength. Look forward to your morning \n      cup of coffee with our smooth, aromatic blend. A sophisticated, full-bodied coffee that’s \n      perfect for drinking at any time of day. This Italian coffee has a long lasting aftertaste \n      and will leave you wanting more. Also available in Coarse Ground, Beans and 1kg Beans.",
+      "techniclas": {
+          "type": "Ground for Espresso Machines or Reusable Capsules",
+          "cuisine": "European",
+          "format": "Ground",
+          "weight": "200 grams",
+          "flavour": "Dark Roast - NAPOLI",
+          "roast": "Dark_roast",
+          "country of origin": "Italy",
+          "country of origin of primary ingredient": "Brazil"
+      }
   },
   {
-    "imgUrl": "https://i.ebayimg.com/thumbs/images/g/gKwAAOSw0Vxipz0Z/s-l300.jpg",
-    "title": "Presto Coffee Beans 1 kg",
-    "country": "Columbia",
-    "weight": "1 kg",
-    "price": "15.00$",
-    "id": ":r4:"
+      "imgUrl": "https://i.pinimg.com/originals/c2/e7/65/c2e76520109dbf36bceccf0d0c2438c1.jpg",
+      "title": "Napoli - Rich Strong Dark Roast Premium Ground Coffee",
+      "price": "4.00$",
+      "id": "B01IYNKAUE",
+      "country": "Brazil",
+      "description": "FLAVOUR - A rich and strong dark roast with smoky, malty and dark chocolate notes. \n      This ground coffee blend is 4/5 strength. Look forward to your morning cup of coffee with our \n      smooth, aromatic blend. A sophisticated, full-bodied coffee that’s perfect for drinking at \n      any time of day. This Italian coffee has a long lasting aftertaste and will leave you \n      wanting more. Also available in Espresso Ground, Beans and 1kg Beans.",
+      "techniclas": {
+          "type": "Ground Coffee",
+          "cuisine": "European",
+          "format": "Ground",
+          "weight": "200 grams",
+          "flavour": "Dark Roast - NAPOLI",
+          "roast": "Dark_roast",
+          "country of origin": "Italy",
+          "country of origin of primary ingredient": "Brazil"
+      }
   },
   {
-    "imgUrl": "https://i.ebayimg.com/thumbs/images/g/gKwAAOSw0Vxipz0Z/s-l300.jpg",
-    "title": "Presto Coffee Beans 2 kg",
-    "country": "Columbia",
-    "weight": "2 kg",
-    "price": "29.99$",
-    "id": ":r5:"
+      "imgUrl": "https://i.pinimg.com/originals/16/40/fd/1640fd9158864c331f53ec22a1f0148d.jpg",
+      "title": "Napoli - Rich Strong Dark Roast Whole Beans Coffee",
+      "price": "4.00$",
+      "id": "B01IYNDQPU",
+      "country": "India",
+      "description": "FLAVOUR - A rich and strong dark roast with smoky, malty and chocolate notes. \n      This coffee blend is 4/5 strength. Look forward to the mornings with our smooth, aromatic blend. \n      A sophisticated, full-bodied coffee that’s perfect for drinking at any time of day. \n      This blend has a long lasting aftertaste and will leave all you home baristas wanting more. \n      Also available in Ground, Espresso Ground, and 1kg Beans.",
+      "techniclas": {
+          "type": "Whole Coffee Beans",
+          "cuisine": "European",
+          "format": "Whole Bean",
+          "weight": "200 grams",
+          "flavour": "Dark Roast - NAPOLI",
+          "roast": "Dark_roast",
+          "country of origin": "Italy",
+          "country of origin of primary ingredient": "India"
+      }
+  },
+  {
+      "imgUrl": "https://i.pinimg.com/originals/5c/9b/e3/5c9be32d9410166dba8829dd7d3d4715.jpg",
+      "title": "GARDA - Intense Premium Dark Roast Espresso Ground Coffee",
+      "price": "4.00$",
+      "id": "B089QVMJLG",
+      "country": "Cameroon",
+      "description": "FLAVOUR - An intense dark roast coffee crafted with superior arabica with \n      dark chocolate truffle, cinnamon and caramel-like notes. This is our darkest, most \n      intense blend, 5/5 strength. This superior blend has a bold and original aroma with a \n      light spicy touch. Also available in Coarse Ground and Beans.",
+      "techniclas": {
+          "type": "Espresso Ground Coffee",
+          "cuisine": "European",
+          "format": "Ground",
+          "weight": "200 grams",
+          "flavour": "Extra Dark Roast - GARDA",
+          "roast": "Dark_roast",
+          "country of origin": "Italy",
+          "country of origin of primary ingredient": "Cameroon"
+      }
+  },
+  {
+      "imgUrl": "https://i.pinimg.com/originals/d0/0a/8d/d00a8df346911d93fa9c8be656cac920.jpg",
+      "title": "GARDA - Intense Premium Dark Roast Ground Coffee",
+      "price": "4.00$",
+      "id": "B089QTVZHT",
+      "country": "Peru",
+      "description": "FLAVOUR - An intense dark roast coffee crafted with superior arabica \n      with dark chocolate truffle, cinnamon and caramel-like notes. This is our darkest, \n      most intense blend, 5/5 strength. This superior blend has a bold and original aroma \n      with a light spicy touch. Also available in Espresso Ground, Beans and 1kg Beans.",
+      "techniclas": {
+          "type": "Ground Coffee",
+          "cuisine": "European",
+          "format": "Ground",
+          "weight": "200 grams",
+          "flavour": "Extra Dark Roast - GARDA",
+          "roast": "Dark_roast",
+          "country of origin": "Italy",
+          "country of origin of primary ingredient": "Peru"
+      }
+  },
+  {
+      "imgUrl": "https://i.pinimg.com/originals/c4/8c/43/c48c43b64ca40997dceee049898b4978.jpg",
+      "title": "Garda - Intense Premium Dark Roast Whole Beans Coffee",
+      "price": "4.00$",
+      "id": "B089QVK18X",
+      "country": "Brazil",
+      "description": "FLAVOUR - An intense dark roast coffee crafted with superior arabica with \n      dark chocolate truffle, cinnamon and caramel-like notes. This is our darkest, most \n      intense blend, 5/5 strength. This superior blend has a bold and original aroma with \n      a light spicy touch. Also available in Espresso Ground, Ground and 1kg Beans.",
+      "techniclas": {
+          "type": "Whole Coffee Beans",
+          "cuisine": "European",
+          "format": "Whole Bean",
+          "weight": "200 grams",
+          "flavour": "Whole Bean",
+          "roast": "Dark_roast",
+          "country of origin": "Italy",
+          "country of origin of primary ingredient": "Brazil"
+      }
+  },
+  {
+      "imgUrl": "https://i.pinimg.com/originals/f9/27/7b/f9277b507e3d5323ee922be70dd8173e.jpg",
+      "title": "VENEZIA - Intense Crema Light Roast 1 KG Whole Beans",
+      "price": "20.00$",
+      "id": "B07G2NQXDK",
+      "country": "Ethiopia",
+      "description": "FLAVOUR - 1KG BAG. A sweet blonde roast with fragrant, sweet and \n      berry-like notes. This blend is 1/5 strength. The beauty of Venice and the sweets \n      of an Italian 'Pasticcerias' were the inspiration behind this slow hand roasted \n      coffee. This blend has a fragrant aroma, an intense crema and delightful tones \n      of honey. This blend has a long lasting aftertaste and will leave all you home \n      baristas wanting more. Also available in Ground and Beans (standard bag size).",
+      "techniclas": {
+          "type": "Whole Coffee Beans",
+          "cuisine": "European",
+          "format": "Whole Bean",
+          "weight": "1 kilograms",
+          "flavour": "Light Blonde Roast - VENEZIA",
+          "roast": "Light_roast",
+          "country of origin": "Italy",
+          "country of origin of primary ingredient": "Ethiopia"
+      }
   }
 ]

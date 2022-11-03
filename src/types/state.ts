@@ -15,8 +15,9 @@ export interface IProducts {
   title: string,
   price: string,
   id: string,
-  country?: string,
-  techniclas?: {
+  country: string,
+  description: string,
+  techniclas: {
     type: string,
     cuisine: string,
     format: string,

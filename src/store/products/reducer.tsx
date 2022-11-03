@@ -18,6 +18,11 @@ const initialState = {
     price: '6.99$',
     id: 'B07CJK4QNS',
     country: 'Ethiopia',
+    description: `FLAVOUR - A medium roast, coarse grind especially made for cold brewing. 
+      This is an intense blend with refreshing and flavourful notes which 
+      releases an irresistible milk-chocolate richness. This coffee was created for 
+      summertime by carefully selecting unique varieties of coffee beans and a roasting 
+      level perfect for cold brew extraction. This blend is 3/5 strength. Also available in Beans.`,
     techniclas: {
       type: 'COARSE GROUND',
       cuisine: 'European',
