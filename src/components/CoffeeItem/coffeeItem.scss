@@ -7,7 +7,7 @@
   background: #FFFFFF;
   border-radius: 8px;
   &:hover {
-    border: 2px solid rgba(0, 0, 0, 0.712);
+    filter: drop-shadow(5px 5px 15px rgb(252, 113, 7));
   }
   &__link {
     text-decoration: none;
