@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import logo from '../../resources/img/icon_coffe_header_nav.svg';
+// import logo from '../../resources/img/icon_coffe_header_nav.svg';
 import './headerNavbar.scss';
 
 function HeaderNavbar() {
@@ -8,7 +8,7 @@ function HeaderNavbar() {
     <nav className="navbar">
       <ul className="navbar-list">
         <li className="navbar-list__item">
-          <img src={logo} alt="logo" className="navbar__logo" />
+          {/* <img src={logo} alt="logo" className="navbar__logo" /> */}
           <NavLink 
             to="/"
             style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#fff' })}

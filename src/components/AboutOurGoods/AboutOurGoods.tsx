@@ -13,21 +13,13 @@ function AboutOurGoods() {
             <h2 className="title title_margin-top-9">About our goods</h2>
             <BlackLineWithLogo />
             <p className="about-goods__text">
-              Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
-              <br />
-              <br />
-              Afraid at highly months do things on at. Situation
-              recommend objection do intention
-              <br />
-              so questions.
-              <br />
-              As greatly removed calling pleased improve an.
-              <br />
-              Last ask him cold feel
-              <br />
-              met spot shy want. Children me laughing we prospect answered followed. At it went
-              <br />
-              is song that held help face.
+              Using carefully balanced and crafted combinations of quality arabica and robusta, 
+              mostly from East Africa and Central America, with Aromistico we have developed distinct 
+              Italian blends all different in strength and with distinguishing notes, but with 
+              a reoccurring aftertaste theme. We hand roast each blend in our small roastery 
+              located in the beautiful region of Lake Garda, Italy. Aromistico has pronounced respect 
+              for traditions. Our in house coffee roaster has been used for over 40 years and it even 
+              once used to operate by wood burning.
             </p>
           </div>
         </div>

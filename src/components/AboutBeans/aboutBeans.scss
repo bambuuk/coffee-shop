@@ -26,3 +26,38 @@
     border: 1px solid #000000;
   }
 }
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+  .about-beans {
+    &__wrapper {
+      grid-template: repeat(2, auto) / auto;
+      column-gap: 0;   
+    }
+    &__img {
+      margin: 0 auto; 
+    }
+    &__description {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+  .about-beans {
+    &__img {
+      width: 200px;
+    }
+    &__description {
+      width: 90%;
+    }
+  }
+}

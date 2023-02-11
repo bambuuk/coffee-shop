@@ -3,43 +3,13 @@
 }
 
 @media (max-width: 991px) {
-  .about-beans {
-    color: red;
-    &__wrapper {
-      grid-template: repeat(2, auto) / auto;
-      column-gap: 0;    
-    }
-  }
+
 }
 
 @media (max-width: 767px) {
-  .header__title {
-    padding-top: 20px;
-  }
+
 }
 
 @media (max-width: 575px) {
-  .navbar {
-    width: 320px;
-    margin: 0 auto;
-  }
-  .navbar-list {
-    flex-direction: column;
-  }
-  .header {
-    padding-top: 20px;
-    &__title {
-      font-size: 25px;
-      margin: 0;
-      line-height: 45px;
-    }
-    &__subtitle {
-      margin-bottom: 10px;
-      div {
-        margin-top: 10px;
-        font-size: 16px;
-        line-height: 25px;
-      }
-    }
-  }
+
 }

@@ -2,43 +2,101 @@
 
 .navbar {
   width: 355px;
+
   &__logo {
     width: 35px;
     height: 35px;
   }
+
   &-list {
+    padding-left: 45px;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     list-style-type: none;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      top: -5px;
+      left: 0;
+      background: url('../../resources/img/icon_coffe_header_nav.png') center center/cover no-repeat;
+    }
+
     &__link {
       position: relative;
       text-decoration: none;
       font-weight: 400;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 17px;
       color: $header-color;
+
       &:after {
         content: "";
-          display: block;
-          position: absolute;
-          right: 0;
-          bottom: -3px;
-          width: 0;
-          height: 2px; /* Высота линии */
-          background-color: $header-color; /* Цвет подчеркивания при исчезании линии*/
-          transition: width 0.5s; /* Время эффекта */
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        width: 0;
+        height: 2px;
+        /* Высота линии */
+        background-color: $header-color;
+        /* Цвет подчеркивания при исчезании линии*/
+        transition: width 0.5s;
+        /* Время эффекта */
       }
+
       &:hover:after {
         content: "";
-          width: 100%;
-          display: block;
-          position: absolute;
-          left: 0;
-          bottom: -3px;
-          height: 2px; /* Высота линии */
-          background-color: $header-color; /* Цвет подчеркивания при появлении линии*/
-          transition: width 0.5s;  /* Время эффекта */
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        height: 2px;
+        /* Высота линии */
+        background-color: $header-color;
+        /* Цвет подчеркивания при появлении линии*/
+        transition: width 0.5s;
+        /* Время эффекта */
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+  .navbar {
+    width: 320px;
+    margin: 0 auto;
+
+    &-list {
+      padding-left: 0;
+      flex-direction: column;
+      align-items: center;
+      &::before {
+        width: 40px;
+        height: 40px;
+        top: 50%;
+        transform: translateY(-60%);
+        left: 20%;
+      }
+      &__item {
+        padding-bottom: 10px;
       }
     }
   }

@@ -13,3 +13,27 @@
     color: $text-color;
   }
 }
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+  .about-company {
+    &__description {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .about-company {
+    &__description {
+      margin-bottom: 50px;
+    }
+  }
+}

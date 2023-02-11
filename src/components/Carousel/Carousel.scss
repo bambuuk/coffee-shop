@@ -29,3 +29,28 @@
     cursor: pointer;
   }
 }
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+  .carousel {
+    &__wrapper {
+      height: 280px;
+      width: 280px;
+    }
+    // &__item {
+    //   width: 250px;
+    //   width: 250px;
+    // }
+  }
+}

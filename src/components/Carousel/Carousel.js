@@ -4,7 +4,8 @@ import {
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import './Carousel.scss';
 
-const ITEM_WIDTH = 450;
+const screenWidth = window.screen.width;
+const ITEM_WIDTH = screenWidth > 575 ? 450 : 250;
 
 function Carousel() {
   const [items] = useState([

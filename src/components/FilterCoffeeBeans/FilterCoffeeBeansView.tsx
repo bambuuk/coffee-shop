@@ -36,7 +36,7 @@ function FilterCoffeeBeansView({
         <div className="filter-coffee__wrapper">
           <div className="filter-coffee__search">
             <label className="filter-coffee__search-input__label" htmlFor="search">
-              Lookiing for
+              Looking for
               <input
                 className="filter-coffee__search-input"
                 type="text"

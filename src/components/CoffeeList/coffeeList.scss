@@ -13,3 +13,29 @@
     row-gap: 60px;
   }
 }
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+  .coffee-list {
+    &__wrapper {
+      width: 75%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .coffee-list {
+    &__wrapper {
+      width: 100%;
+      column-gap: 20px;
+      row-gap: 40px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+
+}

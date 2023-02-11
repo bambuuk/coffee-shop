@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import BlackLineWithLogo from '../BlackLineWithLogo/BlackLineWithLogo';
-import footerBeansCoffee from '../../resources/img/footer_beans.svg';
+// import footerBeansCoffee from '../../resources/img/footer_beans.svg';
 import './footer.scss';
 
 function Footer() {
@@ -9,7 +9,7 @@ function Footer() {
       <nav className="footer__navbar">
         <ul className="footer__list">
           <li className="footer__item">
-            <img src={footerBeansCoffee} alt="coffee beans" className="footer__logo" />
+            {/* <img src={footerBeansCoffee} alt="coffee beans" className="footer__logo" /> */}
             <NavLink 
               to="/"
               style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#000' })}

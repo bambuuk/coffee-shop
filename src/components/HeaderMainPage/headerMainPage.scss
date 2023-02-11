@@ -20,9 +20,6 @@
     &__line:first-child {
       margin-top: 0;
     }
-    // &__line:last-child {
-    //   margin-top: 20px;
-    // }
   }
   .more-info {
     margin: 0 auto;
@@ -37,5 +34,38 @@
     line-height: 30px;
     text-align: center;
     color: $header-color;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+  .header__title {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    padding-top: 20px;
+    &__title {
+      font-size: 25px;
+      margin: 0;
+      line-height: 45px;
+    }
+    &__subtitle {
+      margin-bottom: 10px;
+      div {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
   }
 }
