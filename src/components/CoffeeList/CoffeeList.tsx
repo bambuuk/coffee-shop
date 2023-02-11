@@ -9,16 +9,18 @@ import './coffeeList.scss';
 function CoffeeList() {
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    axios.get('https://62a11ee47b9345bcbe46a4c5.mockapi.io/coffee-list')
-      .then((res) => {
-        dispatch(fetchedListProducts(res.data));
-      });
-  }, []);
-
   const currentFilter = useSelector((state: IFiltersAndSearch) => state.filtersAndSearch.currentFilter);
   const searchTextValue = useSelector((state: IFiltersAndSearch) => state.filtersAndSearch.searchValue);
   const productListItem = useSelector((state: IProductsState) => state.products.dataProducts);
+
+  useEffect(() => {
+    if (productListItem.length < 2) {
+      axios.get('https://62a11ee47b9345bcbe46a4c5.mockapi.io/coffee-list')
+        .then((res) => {
+          dispatch(fetchedListProducts(res.data));
+        });
+    }
+  }, []);
 
   const sortCardsByFilter = (filter: string) => {
     const copyCards = [...productListItem];
