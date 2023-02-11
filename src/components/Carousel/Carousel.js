@@ -6,6 +6,7 @@ import './Carousel.scss';
 
 const screenWidth = window.screen.width;
 const ITEM_WIDTH = screenWidth > 575 ? 450 : 250;
+// const ITEM_WIDTH = 450;
 
 function Carousel() {
   const [items] = useState([
@@ -17,15 +18,21 @@ function Carousel() {
 
   const handleLeftArrowClick = () => {
     setOffset((currentOffset) => {
-      const newOffset = currentOffset + ITEM_WIDTH;
+      let newOffset = currentOffset + ITEM_WIDTH;
+      if (newOffset === 450) {
+        newOffset = -((items.length - 1) * 450);
+      }
       return Math.min(newOffset, 0);
     });
   };
 
   const handleRightArrowClick = () => {
     setOffset((currentOffset) => {
-      const newOffset = currentOffset - ITEM_WIDTH;
+      let newOffset = currentOffset - ITEM_WIDTH;
       const maxOffset = -(ITEM_WIDTH * (items.length - 1));
+      if (newOffset < maxOffset) {
+        newOffset = 0;
+      }
       return Math.max(newOffset, maxOffset);
     });
   };
@@ -48,7 +55,7 @@ function Carousel() {
         <div className="carousel__wrapper">
           <FaChevronLeft className="carousel__arrow" onClick={handleLeftArrowClick} />
           <div className="carousel__window">
-            <div 
+            <div
               className="carousel__list-items"
               style={{
                 transform: `translateX(${offset}px)`,
