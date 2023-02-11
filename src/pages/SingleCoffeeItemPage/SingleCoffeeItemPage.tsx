@@ -64,29 +64,28 @@ function SingleCoffeeItemPage() {
               <span className="weight">Country: </span>
               {country}
             </div>
-            <div className="single-coffee-page__descr">
-              <span className="weight">SKU: </span>
-              {id}
-              <span className="weight">Description: </span>
-              {description}
-            </div>
             <div className="single-coffee-page__sku">
               <span className="weight">SKU: </span>
               {id}
+            </div>
+            <div className="single-coffee-page__descr">
+              <span className="weight">Description: </span>
+              <br />
+              {description}
             </div>
             <div className="single-coffee-page__price">
               <span className="weight">Price: </span>
               <span className="single-coffee-page__price_font-size">{price}</span>
             </div>
           </div>
-          <div className="single-coffee-page__specifications">
-            <h2 className="title">Specifications</h2>
-            <table className="table">
-              <tbody>
-                {contentTechnicals}
-              </tbody>
-            </table>
-          </div>
+        </div>
+        <div className="single-coffee-page__specifications">
+          <h2 className="title">Specifications</h2>
+          <table className="table">
+            <tbody>
+              {contentTechnicals}
+            </tbody>
+          </table>
         </div>
         <Link
           to="/our-coffee"

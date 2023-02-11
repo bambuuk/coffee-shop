@@ -67,3 +67,23 @@
 .active-filters {
   box-shadow: 4px 4px 20px rgba(245, 4, 4, 0.773);
 }
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+  .line-with-logo {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .title {
+    font-size: 20px;
+  }
+}
