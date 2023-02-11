@@ -1,13 +1,14 @@
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { fetchedListProducts } from '../../store/products/actions';
 import './Carousel.scss';
 
 const screenWidth = window.screen.width;
-const ITEM_WIDTH = screenWidth > 575 ? 420 : 250;
-// const ITEM_WIDTH = 450;
+const standartWidth = 400;
+const ITEM_WIDTH = screenWidth > 575 ? standartWidth : 235;
 
 function Carousel() {
   const dispatch = useDispatch();
@@ -28,8 +29,8 @@ function Carousel() {
   const handleLeftArrowClick = () => {
     setOffset((currentOffset) => {
       let newOffset = currentOffset + ITEM_WIDTH;
-      if (newOffset === 420) {
-        newOffset = -((imgListItems.length - 1) * 420);
+      if (newOffset === standartWidth) {
+        newOffset = -((imgListItems.length - 1) * standartWidth);
       }
       return Math.min(newOffset, 0);
     });
@@ -48,13 +49,15 @@ function Carousel() {
 
   const imgsList = imgListItems.map((item) => {
     return (
-      <img
-        key={item.id}
-        className="carousel__item"
-        src={item.imgUrl}
-        alt={item.title}
-        style={{ minWidth: `${ITEM_WIDTH}px`, maxWidth: `${ITEM_WIDTH}px` }}
-      />
+      <Link key={item.id} className="coffee-item__link" to={`/our-coffee/${item.id}`}>
+        <img
+          key={item.id}
+          className="carousel__item"
+          src={item.imgUrl}
+          alt={item.title}
+          style={{ minWidth: `${ITEM_WIDTH}px`, maxWidth: `${ITEM_WIDTH}px` }}
+        />
+      </Link>
     );
   });
 

@@ -15,11 +15,6 @@ function CoffeeItem({
   return (
     <Link className="coffee-item__link" to={`/our-coffee/${id}`}>
       <div className="coffee-item">
-        {/* <img
-          className="coffee-item__img"
-          src={imgUrl}
-          alt={title}
-        /> */}
         <div className="wrapper_img">
           <img
             className="coffee-item__img"
