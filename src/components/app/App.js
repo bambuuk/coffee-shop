@@ -12,7 +12,7 @@ const SingleCoffeeItemPage = lazy(() => import('../../pages/SingleCoffeeItemPage
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/coffee-shop">
       <Suspense fallback={<Spinner />}>
         <Routes>
           <Route path="/" element={<CoffeeHouse />} />
