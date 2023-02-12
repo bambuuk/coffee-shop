@@ -1,3 +1,21 @@
+## Description
+A multi-page React app made with functional components, adapted for all standard mobile device screen sizes. Features dynamically and static rendered elements.
+
+## Features :
+Using REST API for getting elements
+Routing to different page
+Filtering product cards
+Routing to info single cards about coffee beans
+Carousel of image products
+
+## Tools:
+SCSS
+React
+Redux
+Redux thunk
+TypeScript
+ESlint
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
