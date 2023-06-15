@@ -14,7 +14,6 @@ function Footer() {
               to="/"
               style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#000' })}
               className="footer__link" 
-              href="#empty"
             >
               Coffee house
             </NavLink>
@@ -24,7 +23,6 @@ function Footer() {
               to="/our-coffee"
               style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#000' })}
               className="footer__link" 
-              href="#empty"
             >
               Our coffee
             </NavLink>
@@ -34,7 +32,6 @@ function Footer() {
               to="/for-your-pleasure"
               style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#000' })}
               className="footer__link" 
-              href="#empty"
             >
               For your pleasure
             </NavLink>
