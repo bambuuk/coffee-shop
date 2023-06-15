@@ -36,6 +36,12 @@
     line-height: 30px;
     text-align: center;
     color: $header-color;
+    transition: all 0.4s;
+    &:hover {
+      box-shadow: 0 0 20px #fc7107;
+      border: 1px solid #fc7107;
+      color: #fff;
+    }
   }
 }
 

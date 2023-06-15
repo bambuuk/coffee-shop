@@ -21,7 +21,6 @@ function HeaderMainPage() {
         </div>
         <NavLink
           to="/our-coffee"
-          style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#fff' })} 
           className="more-info"
         >
           More
