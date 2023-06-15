@@ -4,6 +4,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { fetchedListProducts } from '../../store/products/actions';
+import { RootState } from '../../store/store';
+import { IProducts } from '../../types/state';
 import './Carousel.scss';
 
 const screenWidth = window.screen.width;
@@ -15,7 +17,7 @@ function Carousel() {
 
   const [offset, setOffset] = useState(0);
 
-  const imgListItems = useSelector((state) => state.products.dataProducts);
+  const imgListItems = useSelector<RootState, IProducts[]>((state) => state.products.dataProducts);
 
   useEffect(() => {
     if (imgListItems.length < 2) {

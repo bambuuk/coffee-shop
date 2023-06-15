@@ -3,7 +3,7 @@ import { FETCHED_LIST_PRODUCTS, FETCHING_LIST_PRODUCTS, ERROR_LIST_PRODUCTS } fr
 
 type Actions = {
   type: string;
-  payload?: IProducts;
+  payload?: IProducts[];
 };
 
 type IInitialState = {
@@ -38,7 +38,7 @@ const initialState = {
 };
 
 // eslint-disable-next-line
-const products = (state: IInitialState = initialState, actions: Actions) => {
+const products = (state: IInitialState = initialState, actions: Actions): IInitialState => {
   switch (actions.type) {
     case FETCHING_LIST_PRODUCTS:
       return {
@@ -48,7 +48,7 @@ const products = (state: IInitialState = initialState, actions: Actions) => {
     case FETCHED_LIST_PRODUCTS:
       return {
         ...state,
-        dataProducts: actions.payload,
+        dataProducts: actions.payload!,
         loadingStatus: false,
       };
     case ERROR_LIST_PRODUCTS:
