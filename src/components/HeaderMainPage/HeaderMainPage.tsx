@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import HeaderNavbar from '../HeaderNavbar/HeaderNavbar';
 import beansLogo from '../../resources/img/icon_coffe_descr.svg';
 
@@ -18,7 +19,13 @@ function HeaderMainPage() {
           <div className="header__subtitle__line">We makes every day full of energy and taste</div>
           <div className="header__subtitle__line">Want to try our beans?</div>
         </div>
-        <div className="more-info">More</div>
+        <NavLink
+          to="/our-coffee"
+          style={({ isActive }) => ({ color: isActive ? '#fc7107' : '#fff' })} 
+          className="more-info"
+        >
+          More
+        </NavLink>
       </div>
     </header>
   );
