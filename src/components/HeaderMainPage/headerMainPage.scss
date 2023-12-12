@@ -1,9 +1,10 @@
-@import '../../style/variables';
+@import "../../style/variables";
 
 .header {
-  padding-top: 40px;
+  padding-top: 30px;
   height: 100vh;
-  background: url('../../resources/img/main_bg.jpg') center (center/cover) no-repeat;
+  background: url("../../resources/img/main_bg.jpg") center (center/cover)
+    no-repeat;
   &__subtitle {
     display: flex;
     flex-direction: column;
@@ -46,11 +47,9 @@
 }
 
 @media (max-width: 1200px) {
-
 }
 
 @media (max-width: 991px) {
-
 }
 
 @media (max-width: 767px) {
