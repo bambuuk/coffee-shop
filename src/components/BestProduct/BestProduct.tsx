@@ -5,7 +5,7 @@ function BestProduct() {
     <section className="best-product">
       <div className="container">
         <h2 className="title">Our best</h2>
-        <div className="best-product__coffe-list">
+        <div className="best-product__coffee-list">
           <div className="best-coffee-item">
             <img
               className="best-coffee-item__img"
